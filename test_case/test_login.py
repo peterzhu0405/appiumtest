@@ -14,7 +14,7 @@ class TestLogin(StartEnd):
 
         l.login_action(data[0],data[1])
         self.assertTrue(l.check_loginStatus())
-
+    # 跳过用例先不执行
     # @unittest.skip('skip test_login_zxw2017')
     def test_login_zxw2017(self):
         logging.info('======test_login_zxw2017=====')

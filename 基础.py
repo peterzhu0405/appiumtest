@@ -222,6 +222,20 @@ tomcat 安装  jenkins安装 https://www.jianshu.com/p/897b9a8fb210
 推荐安装后 可以搭建Android 打包环境  appium自动化测试代码自动运行  接口自动化测试代码 拉代码进行测试
 jenkis 配置学习
 
+===========================================
+封装account.csv 文件存储数据  在公共类中封装 从csv文件中获取数据的方法
+数据与业务代码拆分  用例编写和功能业务拆分。
+
+数据驱动 测试用例  ，用例驱动功能
+=======================
+用例执行和测试报告生成
+
+所使用的python环境的 路径
+/Users/didi/pythonworker/tetst/venv/lib/python3.7/site-packages
+
+
+
+
 
 
 
