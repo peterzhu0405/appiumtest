@@ -9,6 +9,7 @@ import logging
 import logging.config
 import os
 
+# log使用配置
 CON_LOG='../config/log.conf'
 logging.config.fileConfig(CON_LOG)
 logging=logging.getLogger()

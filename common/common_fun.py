@@ -69,7 +69,7 @@ class Common(BaseView):
         else:
             logging.info('close market ad')
             element.click()
-
+    # 从csv文件中 获取指定行的数据
     def get_csv_data(self,csv_file,line):
         logging.info('=====get_csv_data======')
         with open(csv_file,'r',encoding='utf-8-sig') as file:

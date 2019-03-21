@@ -4,6 +4,8 @@
 '''
 使用uiautomator 工具保存页面  进行页面元素查询。
 
+脚本运行 需要先启动appium  保证设备和服务是连接的，脚本连接appium 执行脚本
+
 
 需要输入内容时 需要配置  appium 两个app 手动安装
 desired_caps['unicodeKeyboard']="True"
@@ -213,8 +215,12 @@ logging=logging.getLogger()
 添加日志
 logging.info("check_updateBtn")
 
-==============================================================
 
+
+==============================================================
+tomcat 安装  jenkins安装 https://www.jianshu.com/p/897b9a8fb210
+推荐安装后 可以搭建Android 打包环境  appium自动化测试代码自动运行  接口自动化测试代码 拉代码进行测试
+jenkis 配置学习
 
 
 

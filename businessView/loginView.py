@@ -23,6 +23,7 @@ class LoginView(Common):
         self.check_cancelBtn()
         self.check_skipBtn()
 
+
         logging.info('============login_action==============')
         logging.info('username is:%s' %username)
         self.driver.find_element(*self.username_type).send_keys(username)
