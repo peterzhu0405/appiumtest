@@ -230,8 +230,38 @@ jenkis 配置学习
 =======================
 用例执行和测试报告生成
 
-所使用的python环境的 路径
-/Users/didi/pythonworker/tetst/venv/lib/python3.7/site-packages
+所使用的python环境的在pycharm 查找python 路径 把 bstestrunner.py 文件拷贝到 python/lib/sit-package
+
+appium server 服务启动 只进行用例的执行。
+
+手动触发和定时触发任务。
+==========================
+python 脚本运行 appium server 端
+
+命令 脚本和服务器需要端口号  设备和服务器进行通信  需要指定端口号 bp
+appium -p 4723
+appium -p 4725
+
+-a ip 地址
+
+-bp 指定设备连接端口号
+
+--no-reset seesion 是否重置
+
+-appactivity
+
+-app  远程 app地址
+appium -h 更多命令行指令。
+
+====================================
+appium 并发测试 多进程并发执行执行测试脚本
+
+需要处理 appium 相关的apk 安装到经常使用的测试手机 进行一次性配置。
+
+多进程 对于一个变量有隔离 多进程形式互不影响
+
+
+
 
 
 
