@@ -1,0 +1,8 @@
+/bin/sh: start: command not found
+(node:42957) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+[Appium] Welcome to Appium v1.7.2
+[Appium] Non-default server args:
+[Appium]   address: 127.0.0.1
+[Appium]   port: 4725
+[Appium]   bootstrapPort: 4726
+[Appium] Appium REST http interface listener started on 127.0.0.1:4725

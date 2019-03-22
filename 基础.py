@@ -273,6 +273,11 @@ import multiprocessing 导入模块
       for desired in desired_process:
         # 等所有进程执行结束后结束进程
         desired.join()
+=====================================================
+
+docker  + STF （设备管理） 远程的操作
+https://github.com/haifengrundadi/DisCartierEJ
+
 
 
 

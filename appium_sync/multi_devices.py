@@ -26,7 +26,7 @@ def appium_desired(udid,port):
     print('appium port:%s start run %s at %s' %(port,udid,ctime()))
     driver=webdriver.Remote('http://'+str(data['ip'])+':'+str(port)+'/wd/hub',desired_caps)
     driver.implicitly_wait(5)
-
+    # 需要的操作封装到模块中
     k=KybTest(driver)
     k.skip_update_guide()
     return driver
