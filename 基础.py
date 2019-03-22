@@ -3,6 +3,7 @@
 # -------author  zhujaingtao -----------
 '''
 使用uiautomator 工具保存页面  进行页面元素查询。
+调试脚本时  每做一步 都需要执行一下 保证每一步都不出错
 
 脚本运行 需要先启动appium  保证设备和服务是连接的，脚本连接appium 执行脚本
 
@@ -259,8 +260,19 @@ appium 并发测试 多进程并发执行执行测试脚本
 需要处理 appium 相关的apk 安装到经常使用的测试手机 进行一次性配置。
 
 多进程 对于一个变量有隔离 多进程形式互不影响
+import multiprocessing 导入模块
+# 创建进程
+    desired=multiprocessing.Process(target=appium_desired,args=(devices_list[i],port))
+    # 添加到进程列表中
+    desired_process.append(desired)
 
-
+    进程执行
+        for desired in desired_process:
+        desired.start()
+    进行结束
+      for desired in desired_process:
+        # 等所有进程执行结束后结束进程
+        desired.join()
 
 
 
